@@ -1,0 +1,11 @@
+.mercury{
+    width: 100%;
+    height: auto;
+}
+
+.mercury-container{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+}
+
