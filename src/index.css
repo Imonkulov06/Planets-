@@ -1,10 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;800;900&display=swap);
 *{
   margin: 0;
   padding: 0;
 }
+
+
+
+body {
+  font-family: 'Spartan', sans-serif;
+}
+
 
 body{
   background-color: #070724;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+::-webkit-scrollbar-thumb{
+  width: 2px;
+  background-color: aliceblue;
+}
+
+::-webkit-scrollbar{
+  width: 2px;
+  background-color: #070724;
+}

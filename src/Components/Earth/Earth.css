@@ -1,0 +1,177 @@
+.earth {
+    width: 100%;
+    height: auto;
+}
+
+.earth-container {
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    position: relative;
+}
+
+.earth-main {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 126px;
+}
+
+.earth-img {
+    width: 760px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earth-info {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.earth-info-title {
+    font-family: Antonio;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 103.52px;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+}
+
+.earth-info-text {
+    font-family: Spartan;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: white;
+    margin-top: 23px;
+}
+
+.earth-source-wiki {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    justify-content: flex-start;
+    gap: 8px;
+    color: white;
+}
+
+.earth-info-source {
+    font-family: Spartan;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+.earth-info-source span {
+    font-family: Spartan;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+}
+
+.earth-info-options {
+    width: 100%;
+    height: 176px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.earth-info-option {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #313148;
+    color: white;
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    gap: 28px;
+    cursor: pointer;
+}
+
+.earth-info-option:hover {
+    background-color: #313148;
+    border: none;
+}
+
+.overview {
+    background-color: #419ebb;
+    border: none;
+}
+.overview:hover {
+    background-color: #419ebb;
+    border: none;
+}
+
+.earth-info-optionNumber {
+    font-family: Spartan;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2.5714285373687744px;
+    text-align: left;
+    text-indent: 28px;
+    color: #a0cfdd;
+}
+
+.earth-info-optionName {
+    font-family: Spartan;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2.5714285373687744px;
+    text-align: left;
+}
+
+.earth-stats {
+    width: 100%;
+    height: 128px;
+    margin-top: 87px;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.earth-stat {
+    width: 255px;
+    height: 100%;
+    border: 1px solid #313148;
+    text-transform: uppercase;
+}
+
+.earth-stat-title {
+    font-family: Spartan;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #313148;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+.earth-stat-number {
+    font-family: Antonio;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 51.76px;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: white;
+    margin-top: 4px;
+    margin-left: 23px;
+}
