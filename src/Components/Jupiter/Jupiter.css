@@ -1,0 +1,177 @@
+.jupiter {
+    width: 100%;
+    height: auto;
+}
+
+.jupiter-container {
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    position: relative;
+}
+
+.jupiter-main {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 126px;
+}
+
+.jupiter-img {
+    width: 760px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.jupiter-info {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.jupiter-info-title {
+    font-family: Antonio;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 103.52px;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+}
+
+.jupiter-info-text {
+    font-family: Spartan;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: white;
+    margin-top: 23px;
+}
+
+.jupiter-source-wiki {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    justify-content: flex-start;
+    gap: 8px;
+    color: white;
+}
+
+.jupiter-info-source {
+    font-family: Spartan;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+.jupiter-info-source span {
+    font-family: Spartan;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+}
+
+.jupiter-info-options {
+    width: 100%;
+    height: 176px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jupiter-info-option {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #313148;
+    color: white;
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    gap: 28px;
+    cursor: pointer;
+}
+
+.jupiter-info-option:hover {
+    background-color: #313148;
+    border: none;
+}
+
+.jupiter-overview {
+    background-color: #D83A34;
+    border: none;
+}
+.jupiter-overview:hover {
+    background-color: #D83A34;
+    border: none;
+}
+
+.jupiter-info-optionNumber {
+    font-family: Spartan;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2.5714285373687744px;
+    text-align: left;
+    text-indent: 28px;
+    color: #a0cfdd;
+}
+
+.jupiter-info-optionName {
+    font-family: Spartan;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2.5714285373687744px;
+    text-align: left;
+}
+
+.jupiter-stats {
+    width: 100%;
+    height: 128px;
+    margin-top: 87px;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jupiter-stat {
+    width: 255px;
+    height: 100%;
+    border: 1px solid #313148;
+    text-transform: uppercase;
+}
+
+.jupiter-stat-title {
+    font-family: Spartan;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #313148;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+.jupiter-stat-number {
+    font-family: Antonio;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 51.76px;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: white;
+    margin-top: 4px;
+    margin-left: 23px;
+}

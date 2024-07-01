@@ -1,0 +1,177 @@
+.neptune {
+    width: 100%;
+    height: auto;
+}
+
+.neptune-container {
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    position: relative;
+}
+
+.neptune-main {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 126px;
+}
+
+.neptune-img {
+    width: 760px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.neptune-info {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.neptune-info-title {
+    font-family: Antonio;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 103.52px;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+}
+
+.neptune-info-text {
+    font-family: Spartan;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: white;
+    margin-top: 23px;
+}
+
+.neptune-source-wiki {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    justify-content: flex-start;
+    gap: 8px;
+    color: white;
+}
+
+.neptune-info-source {
+    font-family: Spartan;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+.neptune-info-source span {
+    font-family: Spartan;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+}
+
+.neptune-info-options {
+    width: 100%;
+    height: 176px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.neptune-info-option {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #313148;
+    color: white;
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    gap: 28px;
+    cursor: pointer;
+}
+
+.neptune-info-option:hover {
+    background-color: #313148;
+    border: none;
+}
+
+.neptune-overview {
+    background-color: #d83a34;
+    border: none;
+}
+.neptune-overview:hover {
+    background-color: #d83a34;
+    border: none;
+}
+
+.neptune-info-optionNumber {
+    font-family: Spartan;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2.5714285373687744px;
+    text-align: left;
+    text-indent: 28px;
+    color: #a0cfdd;
+}
+
+.neptune-info-optionName {
+    font-family: Spartan;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2.5714285373687744px;
+    text-align: left;
+}
+
+.neptune-stats {
+    width: 100%;
+    height: 128px;
+    margin-top: 87px;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.neptune-stat {
+    width: 255px;
+    height: 100%;
+    border: 1px solid #313148;
+    text-transform: uppercase;
+}
+
+.neptune-stat-title {
+    font-family: Spartan;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #313148;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+.neptune-stat-number {
+    font-family: Antonio;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 51.76px;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: white;
+    margin-top: 4px;
+    margin-left: 23px;
+}

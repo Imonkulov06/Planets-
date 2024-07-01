@@ -24,7 +24,7 @@ const Venus = () => {
                                 <img src={VenusWikipediaIcon} alt="" />
                             </div>
                             <div className="venus-info-options">
-                                <div className="venus-info-option overview">
+                                <div className="venus-info-option venus-overview">
                                     <p className="venus-info-optionNumber">
                                         1
                                     </p>

@@ -2,6 +2,10 @@ import React from "react";
 import "./Mercury.css";
 import MercuryImg from "./images/mercury.png";
 import MercuryWikipediaIcon from "./images/wikipedia.png";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import MercuryInfoOptions from "./MercuryInfoOptions";
+import MercuryInternal from "./Mercury-internal/MercuryInternal";
+import MercurySurface from "./Mercury-surface/MercurySurface";
 
 const Mercury = () => {
     return (
@@ -28,49 +32,56 @@ const Mercury = () => {
                                 </p>{" "}
                                 <img src={MercuryWikipediaIcon} alt="" />
                             </div>
-                            <div className="mercury-info-options">
-                                <div className="mercury-info-option overview">
-                                    <p className="mercury-info-optionNumber">
-                                        1
-                                    </p>
-                                    <h1 className="mercury-info-optionName">
-                                        OVERVIEW
-                                    </h1>
-                                </div>
-                                <div className="mercury-info-option">
-                                    <p className="mercury-info-optionNumber">
-                                        2
-                                    </p>
-                                    <h1 className="mercury-info-optionName">
+                            <div
+                                to="mercury"
+                                className="mercury-info-option overview"
+                            >
+                                <p className="mercury-info-optionNumber">1</p>
+                                <h1 className="mercury-info-optionName">
+                                    OVERVIEW
+                                </h1>
+                            </div>
+                            <div
+                                to="mercury-internal"
+                                className="mercury-info-option"
+                            >
+                                <p className="mercury-info-optionNumber">2</p>
+                                <h1 className="mercury-info-optionName">
                                     Internal Structure
-                                    </h1>
-                                </div>
-                                <div className="mercury-info-option">
-                                    <p className="mercury-info-optionNumber">
-                                        3
-                                    </p>
-                                    <h1 className="mercury-info-optionName">
-                                        Surface Geology
-                                    </h1>
-                                </div>
+                                </h1>
+                            </div>
+                            <div
+                                to="mercury-surface"
+                                className="mercury-info-option"
+                            >
+                                <p className="mercury-info-optionNumber">3</p>
+                                <h1 className="mercury-info-optionName">
+                                    Surface Geology
+                                </h1>
                             </div>
                         </div>
                     </div>
                     <div className="mercury-stats">
                         <div className="mercury-stat">
-                            <h1 className="mercury-stat-title">ROTATION TIME</h1>
+                            <h1 className="mercury-stat-title">
+                                ROTATION TIME
+                            </h1>
                             <p className="mercury-stat-number">58.6 days</p>
                         </div>
                         <div className="mercury-stat">
-                        <h1 className="mercury-stat-title">REVOLUTION TIME</h1>
+                            <h1 className="mercury-stat-title">
+                                REVOLUTION TIME
+                            </h1>
                             <p className="mercury-stat-number">87.97 DAYS</p>
                         </div>
                         <div className="mercury-stat">
-                        <h1 className="mercury-stat-title">RADIUS</h1>
+                            <h1 className="mercury-stat-title">RADIUS</h1>
                             <p className="mercury-stat-number">2,439.7 km</p>
                         </div>
                         <div className="mercury-stat">
-                        <h1 className="mercury-stat-title">AVERAGE TEMP.</h1>
+                            <h1 className="mercury-stat-title">
+                                AVERAGE TEMP.
+                            </h1>
                             <p className="mercury-stat-number">430°c</p>
                         </div>
                     </div>

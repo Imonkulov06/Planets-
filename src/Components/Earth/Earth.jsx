@@ -24,7 +24,7 @@ const Earth = () => {
                                 <img src={EarthWikipediaIcon} alt="" />
                             </div>
                             <div className="earth-info-options">
-                                <div className="earth-info-option overview">
+                                <div className="earth-info-option earth-overview">
                                     <p className="earth-info-optionNumber">1</p>
                                     <h1 className="earth-info-optionName">
                                         OVERVIEW
